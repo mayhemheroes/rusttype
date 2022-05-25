@@ -1,0 +1,7 @@
+project: rusttype
+target: parse-font
+
+cmds:
+  - cmd: /parse_font
+  - cmd: /parse_font_no_inst @@
+    libfuzzer: false
